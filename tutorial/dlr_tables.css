@@ -69,4 +69,8 @@ col.dayCols{
 	background: rgb(255,220,255);
 	width: 12%;
 }
+
+footer{
+	order: 100;
+}
 	

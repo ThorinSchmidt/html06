@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Case Problem 1
+
+   Tables Style Sheet
+   Author: Kenaz & Lauren
+   Date:   11/26/18  
+
+   Filename:         mi_tables.css
+
+*/
+
+/* Table Styles */
+table {
+	background: linear-gradient(rgb(190, 215, 255) 10%, black);
+	border: 5px solid grey;
+}
+
+table th, table td {
+	border: 3px solid grey;
+	line-height: 1.4 em;
+	padding: 8px;
+}
+
+thead th {
+	background-color: black;
+	color: rgb( 130,210,255);
+	font-weight: normal;
+}
+
+td {
+	color: white;
+	font-size: 0.9 em;
+	text-align: top;
+	
+}
+
+/* Column Styles */
+
+
+
+/* Table Header Styles */
+
+
+
+
+
+
+
+
+
+
+

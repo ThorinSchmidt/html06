@@ -20,19 +20,19 @@ table#pricing{
 	width: 100%
 }
 
-table th, table td {
+ th, td {
 	border: 3px solid grey;
 	line-height: 1.4em;
 	padding: 8px;
 }
 
- table th {
+th {
 	background-color: black;
 	color: rgb( 130,210,255);
 	font-weight: normal;
 }
 
-table td {
+td {
 	color: white;
 	font-size: 0.9em;
 	vertical-align: top;
@@ -51,15 +51,13 @@ col.dataCols {
 
 /* Table Header Styles */
 
-table thead  tr{
+thead  tr{
 	height: 60px;
 }
-
-table thead tr:first-of-type th:first-of-type{
+thead tr:first-of-type th:first-of-type{
 	font-size: 2em;
 }
-
-table thead tr:first-of-type th:not(:first-of-type) {
+thead tr:first-of-type th:not(:first-of-type) {
 	background-color: transparent;
 	color: black;
 }
